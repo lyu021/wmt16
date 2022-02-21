@@ -1,3 +1,8 @@
+BW
+~/wmt16-news/model-2/averaged.pt
+
+cat generated.test16.result.detok | sacrebleu -t wmt16 -l en-de
+
 {
  "name": "BLEU",
  "score": 34.7,
