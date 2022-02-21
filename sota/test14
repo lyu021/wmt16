@@ -1,0 +1,17 @@
+BW
+~/wmt16-news/model-2/averaged.pt
+
+cat generated.result.detok | sacrebleu -t wmt14/full -l en-de
+
+{
+ "name": "BLEU",
+ "score": 27.3,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.0.0",
+ "verbose_score": "58.2/32.9/20.9/13.8 (BP = 1.000 ratio = 1.031 hyp_len = 64653 ref_len = 62688)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.0.0"
+}
